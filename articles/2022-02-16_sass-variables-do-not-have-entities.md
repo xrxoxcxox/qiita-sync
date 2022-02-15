@@ -1,7 +1,10 @@
 <!--
-title: Sassの変数は実体を持たない
-tags: Sass,variables,CSS
+title:   Sassの変数は実体を持たない
+tags:    CSS,Sass,Variables
+id:      cd0651e7e83a02a53c0d
+private: false
 -->
+
 
 ## この記事の概要
 
