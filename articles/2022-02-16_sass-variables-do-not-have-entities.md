@@ -4,8 +4,6 @@ tags:    CSS,Sass,Variables
 id:      cd0651e7e83a02a53c0d
 private: false
 -->
-
-
 ## この記事の概要
 
 Sassの変数とCSSのCustom Propertiesって何がどう違うの？という質問をたまに受けます。
@@ -51,7 +49,7 @@ Sassの変数は
 </html>
 ```
 
-```scss:style.scss
+`scss:style.scss
 $text-color: rgba(0 0 0 / 0.87);
 $primary-color: #55c500;
 $secondary-color: #4097db;
@@ -115,7 +113,7 @@ body {
   color: $secondary-color;
   font-size: $font-size-s;
 }
-```
+`
 
 見た目はこのようになっています。
 
