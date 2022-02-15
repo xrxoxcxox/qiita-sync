@@ -115,3 +115,13 @@ infoは省略可能です。
 
 エディタを使ってみての感想も含め、[Qiita Discussions](https://github.com/increments/qiita-discussions/discussions)でいつでもお待ちしています。
 ご意見がありましたら是非お寄せください！
+
+---
+
+↓記事投稿シリーズまとめ
+
+https://qiita.com/Qiita/items/e87ebe3138f62b0e8b58
+
+↓前の記事
+
+https://qiita.com/mziyut/items/bc00ed7396bd60a717b8
