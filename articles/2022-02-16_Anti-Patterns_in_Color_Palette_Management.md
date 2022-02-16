@@ -73,7 +73,7 @@ CSSによるカラーパレット管理において、たまに見かけるけ�
 
 しかし実際の見た目は以下のようになっています。
 
-![](../images/color-palette-created-with-hsl-and-css-custom-properties-01.png)
+![](../images/color-palette-created-with-hsl-and-css-custom-properties-green.png)
 
 - 中間の色の彩度がやたら高く見える
   - 数値的には全て同じはずなのに
@@ -83,7 +83,7 @@ CSSによるカラーパレット管理において、たまに見かけるけ�
 
 また、色相や彩度を変えてみても同じようなパレットが生成されました。
 
-![](../images/color-palette-created-with-hsl-and-css-custom-properties-02.png)
+![](../images/color-palette-created-with-hsl-and-css-custom-properties-red.png)
 
 ## このアプローチのまま解消を目指すなら
 
