@@ -14,7 +14,7 @@ private: false
 
 ### 自己紹介
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/953f3fe2-0c96-29ba-56ff-394ac76cd59e.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/f8464582-208f-f46b-faa3-6ca48523ceb9.png)
 
 みなさんこんにちは。
 
@@ -27,11 +27,11 @@ Qiita 株式会社でデザイナーをしている綿貫佳祐です。
 
 ### 3DCG をやったことある人いますか？
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/6e161914-a1d2-dc03-6f31-bca02e074e5d.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/fb296774-f907-5c05-7a77-22bb948f7f08.png)
 
 みなさん 3DCG やったことありますか？僕は最近 Blender を触るようになりました。
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/e0d2eb98-77ea-59de-a083-0d6d2228597b.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/ef4ebf7f-f3cb-8868-430a-b5d38606969c.png)
 
 週末にちょろっとだけ触る程度で大した知識も実力もないんですが、それでも「昨今のデジタルプロダクトデザインに活きそう」な手応えを感じています。
 
@@ -41,14 +41,14 @@ Qiita 株式会社でデザイナーをしている綿貫佳祐です。
 
 ### Photoshop では面倒くさい表現も 3DCG なら余裕な可能性アリ
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/103bcaec-f71f-598b-7d04-1def2c2ca201.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/48f68ab6-7d61-4538-ccd0-3c36e2a6f70b.png)
 
 まず 1 つ目は「Photoshop では面倒くさい表現も 3DCG なら余裕……かもしれない」です。
 
 例えばこんな感じ
 
 | はためく布っぽい表現 + ホログラフィック風 | 液体表現 |
-| --- | --------------------------------------------- |
+| --- | --- |
 | ![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/504ac4e7-d4f3-6f35-f5f2-6dd83cd0598a.jpeg) | ![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/254acfe1-6d44-2edf-e6bd-6d8c25a19725.png) |
 
 どちらも多分、Photoshop で 1 から作ろうと思うと普通に面倒くさいと思います。
@@ -68,13 +68,13 @@ Qiita 株式会社でデザイナーをしている綿貫佳祐です。
 
 ### 撮影スタジオがPCの中にある感じ
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/57d261f7-d77a-7180-9e3f-79f48a7c3b62.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/8d472f12-0025-61d2-579b-b1786df94243.png)
 
 何かを撮影しようと思ったら、用意するものは結構あります。
 
 例えばブツ撮りなら……。
 
-![撮影するもの、カメラ（適切なレンズ）、背景（布や床）、照明（ストロボやレフ板）、小物](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/3041c723-3c01-c35e-6c70-2238d5eb44c1.png)
+![撮影するもの、カメラ（適切なレンズ）、背景（布や床）、照明（ストロボやレフ板）、小物](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/fea58889-024c-75a7-3ea1-1f3949f1fbc9.png)
 
 ちょっとしたものを取ろうと思ってもまあまあ準備が大変ですよね。
 
@@ -94,7 +94,7 @@ Qiita 株式会社でデザイナーをしている綿貫佳祐です。
 
 ### 同じような表現でも 2D と比べて情報量がアップ
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/06ce18cf-6dd4-c13c-0c96-d3c04bda310f.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/68817592-b398-8aba-b3df-d71d176fac07.png)
 
 例えば幾何学模様ってよく使いますよね？
 
@@ -115,9 +115,9 @@ Qiita 株式会社でデザイナーをしている綿貫佳祐です。
 
 ### まとめ
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/00d9f2a5-0c69-c2ae-f4c6-25f17ab77f96.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/c3aa0c41-70d3-419a-de63-09a7217e16da.png)
 
-![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/4d81f3ce-32a0-7505-66fa-16041cc879e7.png)
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/812aeb7b-dc6c-75de-af56-1c0b44a7617b.png)
 
 良くないですか？
 
