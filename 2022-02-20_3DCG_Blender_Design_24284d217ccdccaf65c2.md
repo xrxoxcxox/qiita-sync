@@ -128,3 +128,28 @@ Qiita 株式会社でデザイナーをしている綿貫佳祐です。
 Blender は無料で使える太っ腹過ぎるソフトなので、試しに 1 度トライしてみませんか？
 
 以上で僕の発表は終わります。ご清聴ありがとうございました！
+
+## 質問
+
+### どんなチュートリアル見てる？
+
+登録してるチャンネルだとこんな感じです。
+
+- 英語
+    - https://www.youtube.com/c/BlenderGuruOfficial
+    - https://www.youtube.com/channel/UCuNhGhbemBkdflZ1FGJ0lUQ
+    - https://www.youtube.com/c/PolygonRunway
+- 日本語
+    - https://www.youtube.com/c/Mdesign_blender
+    - https://www.youtube.com/c/3DBibi
+    - https://www.youtube.com/channel/UCYw2EiB2tSnI7lXq6juL78w
+    - https://www.youtube.com/c/yuki_blender
+    - https://www.youtube.com/channel/UCsv7oxruQfijP6y4UTnw6NA
+    - https://www.youtube.com/channel/UCOi0jhHe_NTBNm0mqXrfVqA
+
+### 業務で使う？使わないとしたら、モチベーションはどう保ってる？
+
+業務では使わないですねぇ。基本的には自分が楽しいから続けています笑
+
+あとは自社において「新しい技術、まだみんなが知らない知識」を率先して取り入れるのが使命の1つだと考えています。
+（役職とか、上司から求められてる内容とか、そういうのを色々鑑みるに）

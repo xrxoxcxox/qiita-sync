@@ -2,7 +2,7 @@
 title:   QiitaのMarkdownパーサー変更にともなう、補足説明の書き方と注意点
 tags:    Markdown,Qiita,githubflavoredmarkdown
 id:      0c91e5319c32434f2c6a
-private: true
+private: false
 -->
 ## 記事投稿シリーズについて
 
@@ -18,7 +18,7 @@ QiitaでGitHub Flavored Markdown (以下GFM) に準拠したMarkdownパーサー
 
 https://qiita.com/Qiita/items/e87ebe3138f62b0e8b58
 
-GFMの記法とは少し違いますが、この記事ではQiita独自の「補足説明のための記法（以下ノート記法）」にについて説明します。
+GFMの記法とは少し違いますが、この記事ではQiita独自の「補足説明のための記法（以下ノート記法）」について説明します。
 
 ## ノート記法の説明
 
