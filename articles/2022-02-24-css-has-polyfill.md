@@ -1,7 +1,10 @@
 <!--
-title: CSSの:has()のポリフィルがあったので試してみた
-tags: CSS,polyfill
+title:   CSSの:has()のポリフィルがあったので試してみた
+tags:    CSS,Polyfill
+id:      74c2443026de8b10a92c
+private: false
 -->
+
 
 ## この記事の概要
 
