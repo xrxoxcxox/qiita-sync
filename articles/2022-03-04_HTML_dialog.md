@@ -1,0 +1,126 @@
+<!--
+title:   HTMLのdialog要素をスタイリングするときに気をつけること
+tags:    HTML, tips
+-->
+
+## この記事の概要
+
+`dialog`要素、ご存じですか？
+
+その名の通りダイアログ的な振る舞いや役割をする要素です。
+モーダルウィンドウと言えばより広く伝わるでしょうか。
+
+簡単なダイアログならライブラリを使わなくても事足りるのですが、スタイルを当てる際に気をつけた方が良さそうなことがあったので記事にしてみました。
+
+## 注意
+
+Chrome（とEdge）はよっぽど大丈夫ですが、FirefoxとSafariはまだ本番投入してもブラウザが対応していません。
+もう少しすれば使えるようになると思うので、今のうちに素振りをしておくのが良いかもと思います。
+
+<picture>
+  <source type="image/webp" srcset="https://caniuse.bitsofco.de/static/v1/dialog-1646320951431.webp">
+  <source type="image/png" srcset="https://caniuse.bitsofco.de/static/v1/dialog-1646320951431.png">
+  <img src="https://caniuse.bitsofco.de/static/v1/dialog-1646320951431.jpg" alt="Data on support for the dialog feature across the major browsers from caniuse.com">
+</picture>
+
+ポリフィルもあります。
+
+https://github.com/GoogleChrome/dialog-polyfill
+
+## デフォルトのスタイル
+
+2022 年 3 月 4 日現在、ChromeとFirefoxではこのような感じです。
+
+```html
+<dialog>
+  <p>
+    秋も更けて、暁闇がすぐに黄昏となり、暮れてゆく年に憂愁をなげかけるころの、おだやかな、むしろ物さびしいある日、わたしはウェストミンスター寺院を逍遥して数時間すごしたことがある。
+  </p>
+  <button>閉じる</button>
+</dialog>
+```
+
+![](../images/html-dialog-element.png)
+
+これだけ見せられても……となると思うので補足。
+
+- 背景全体に`rgba(0 0 0 / 10%)`がかかる
+  - `backdrop`という名前
+- `border`付きの矩形が描画されて、その中にテキストなりボタンなりフォームなりを自由に入れられる
+- 矩形の幅や高さは中身のコンテンツにフィットする
+
+## 説明するためにスタイルを調整
+
+![](../images/html-dialog-element-styled.png)
+
+- `::backdrop`が結構薄めだったので濃くした
+- 閉じるボタンを右側に配置した
+- その他微調整
+
+## 実際のコードと、変更のポイント
+
+```html
+<dialog class="dialog">
+  <p>
+    秋も更けて、暁闇がすぐに黄昏となり、暮れてゆく年に憂愁をなげかけるころの、おだやかな、むしろ物さびしいある日、わたしはウェストミンスター寺院を逍遥して数時間すごしたことがある。
+  </p>
+  <button class="button">閉じる</button>
+</dialog>
+```
+
+```css
+.dialog[open] {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 16px rgba(0 0 0 / 16%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 35rem;
+}
+
+.dialog::backdrop {
+  background: rgba(0 0 0 / 32%);
+}
+
+.button {
+  align-self: flex-end;
+  background-color: #55c500;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0.5em 1em;
+}
+```
+
+### ポイント1 `[open]`の記述
+
+`dialog`は`open`という属性を持ちます。
+これを指定せず、例でいう`display: flex`を追加してしまうと常に`dialog`が開きっぱなしになってしまいます。
+
+これは、User Agent Stylesheetでの指定が以下のようになっているため
+
+```css
+dialog:not([open]) {
+  display: none;
+}
+```
+
+クラス名による指定をすると詳細度が勝ってしまい、`:not([open])`であっても`display: none;`ではなく`display: flex;`となってしまうからです。
+もちろん`block`でも`grid`でも同じことになります。
+
+### ポイント2 `::backdrop`の指定
+
+デフォルトでも背景に半透明な黒を敷いてくれるのですが、一般的なbackdropより若干薄い気もします。
+色を変えたい場合も多いと思いますが、そんなときは`::backdrop`へのスタイル指定です。
+
+`dialog`要素そのものや、`dialog`につけたクラス名に対してスタイルを当てても背景色は変わりません。
+
+## まとめ
+
+- 2022年3月4日現在ではFirefoxとSafariが未対応なため本番投入はできない
+  - しかし多分もうすぐ使える
+- `open`属性をつけてスタイルを書くと良い
+- 背景色を変えたければ`::backdrop`に対してスタイルを書く
