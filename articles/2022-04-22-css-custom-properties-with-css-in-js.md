@@ -44,17 +44,17 @@ https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-vari
 
 ```
 [
-	"**/.git",
-	"**/.svn",
-	"**/.hg",
-	"**/CVS",
-	"**/.DS_Store",
-	"**/.git",
-	"**/node_modules",
-	"**/bower_components",
-	"**/tmp",
-	"**/dist",
-	"**/tests"
+  "**/.git",
+  "**/.svn",
+  "**/.hg",
+  "**/CVS",
+  "**/.DS_Store",
+  "**/.git",
+  "**/node_modules",
+  "**/bower_components",
+  "**/tmp",
+  "**/dist",
+  "**/tests"
 ]
 ```
 
