@@ -50,3 +50,35 @@ https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-vari
 	"**/tests"
 ]
 ```
+
+### `.js`や`.ts`内でCustom Propertiesを定義する際
+
+styled-componentsの`createGlobalStyle`やEmotionの`Global`を使用している場合、`.js`や`.ts`のファイル内でCustom Propertiesを定義することもあると思います。
+
+この場合、Visual Studio Codeの`settings.json`を開いて、以下のように記載します。
+
+```json-doc
+{
+  // 既存の設定
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "**/*.js",
+    "**/*.ts"
+  ],
+}
+```
+
+グローバルな`settings.json`ではなく、ワークスペース固有の`settings.json`に対して指定するのももちろんOKです。
+
+```json-doc
+{
+  // 既存の設定
+  "cssVariables.lookupFiles": [
+    "path/to/styles.js",
+    "path/to/styles.ts"
+  ],
+}
+```
