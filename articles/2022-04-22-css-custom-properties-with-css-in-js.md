@@ -11,6 +11,13 @@ tags:    VisualStudioCode, css-in-js, CSSCustomProperties, tips, 新人プログ
 
 https://qiita.com/official-events/3f21c92121aa125807b4
 
+## 最終イメージ
+
+![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/67f51e75-47e1-9741-75d5-28a0e62938ca.png)
+
+CSS Custom Propertiesを定義しているのも、それを呼び出しているのもTypeScriptのファイルです。
+しかし、ちゃんと補完が効いています。
+
 ## Extension
 
 こちらのExtensionです。
