@@ -112,3 +112,10 @@ Decoratorsを追加すると、Storyをwrapしてスタイルを当てられま�
 ```
 
 Storybook内に`reset.css`的な役割のスタイルを定義するのにも使えるでしょう。
+
+---
+
+最後まで読んでくださってありがとうございます！
+Twitterでも情報を発信しているので、良かったらフォローお願いします！
+
+https://twitter.com/xrxoxcxox

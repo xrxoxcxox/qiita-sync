@@ -91,3 +91,10 @@ styled-componentsの`createGlobalStyle`やEmotionの`Global`を使用してい�
   ],
 }
 ```
+
+---
+
+最後まで読んでくださってありがとうございます！
+Twitterでも情報を発信しているので、良かったらフォローお願いします！
+
+https://twitter.com/xrxoxcxox

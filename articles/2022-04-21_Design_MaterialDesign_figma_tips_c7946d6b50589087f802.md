@@ -122,3 +122,10 @@ styleのうち、`filled`と`two-tone`がなくなっていました。
 - 新しくMaterial Symbolsになったことで、細かい調整がしやすくなった
     - Weight, Grade, Optical size
 - 基本的に進化した項目ばかりだけど、`two-tone`だけは削除されている
+
+---
+
+最後まで読んでくださってありがとうございます！
+Twitterでも情報を発信しているので、良かったらフォローお願いします！
+
+https://twitter.com/xrxoxcxox

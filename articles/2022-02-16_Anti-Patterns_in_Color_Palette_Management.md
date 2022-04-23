@@ -4,8 +4,6 @@ tags:    CSS,アンチパターン,色
 id:      de880b8f687f13328c27
 private: false
 -->
-
-
 ## この記事の概要
 
 CSSによるカラーパレット管理において、たまに見かけるけど**やめておいた方が良い**方法を記事にしました。
@@ -110,3 +108,10 @@ CSSによるカラーパレット管理において、たまに見かけるけ�
 https://qiita.com/yoya/items/122b93970c190068c752
 
 https://www.dic-color.com/knowledge/munsell.html
+
+---
+
+最後まで読んでくださってありがとうございます！
+Twitterでも情報を発信しているので、良かったらフォローお願いします！
+
+https://twitter.com/xrxoxcxox

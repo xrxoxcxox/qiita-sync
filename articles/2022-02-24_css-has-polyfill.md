@@ -4,8 +4,6 @@ tags:    CSS,Polyfill
 id:      74c2443026de8b10a92c
 private: false
 -->
-
-
 ## この記事の概要
 
 CSS を書いていて「`.child`クラスを持っている要素だけスタイルを変えたいんだよなあ」なんてシーン、ありませんか？
@@ -193,3 +191,10 @@ Attribute selector自体はどのブラウザでも動きますから、安心�
 --no-map              Disable the default inline sourcemaps
 -p, --plugin-options  Stringified JSON object with plugin options
 ```
+
+---
+
+最後まで読んでくださってありがとうございます！
+Twitterでも情報を発信しているので、良かったらフォローお願いします！
+
+https://twitter.com/xrxoxcxox
