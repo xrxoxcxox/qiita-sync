@@ -1,6 +1,6 @@
 <!--
 title:   The CanIUse Embedが便利
-tags:    CSS,caniuse
+tags:    CSS,caniuse,tips
 -->
 
 ## この記事の概要
