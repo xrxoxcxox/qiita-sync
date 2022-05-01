@@ -1,7 +1,10 @@
 <!--
 title:   The CanIUse Embedが便利
 tags:    CSS,caniuse,tips
+id:      aae9745f6b5b3f6c1dbe
+private: false
 -->
+
 
 ## この記事の概要
 
