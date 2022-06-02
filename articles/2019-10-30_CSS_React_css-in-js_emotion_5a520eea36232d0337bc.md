@@ -61,7 +61,7 @@ render(
 
 * 逆にNGなのは以下
     * 入れ子でタグを直接指定してスタイリングするとスコープが閉じなくなる
-    * 例のコードだと`children`やComponent内で呼び出したComponentに`<p>`が存在しているとそれも`hotpink`になってしまう  
+    * 例のコードだと`children`やComponent内で呼び出したComponentに`<p>`が存在しているとそれも`hotpink`になってしまう
     （ならないようにも書けるけど頭の中で完璧にシミュレートするのは難しいので初めから採用しない）
 
 ```jsx:NG例
@@ -92,7 +92,7 @@ const foo = css`
 
 render(
   <ul css={foo}>
-    <li>なんとか</li> 
+    <li>なんとか</li>
     <li>かんとか</li>
     <li>うんたら</li>
     {/* li1つ1つに全部css={bar}とか書くのは変更が発生したときに漏れを起こしやすい */}
@@ -178,7 +178,7 @@ const Component = () => {
     rootMargin: '10px',
     threshold: 0,
   })
- 
+
   return (
     <p ref={ref} css={[text, inView && animation]}>
       animation
@@ -265,7 +265,7 @@ const secondaryButton = () => {
 * Attaching Propsを使って処理する
     * 通常、UIコンポーネントそのものにマージンをつけるのは良くない
     * しかし毎回コンポーネントを`div`で囲ってレイアウト用のスタイルを書くのもマークアップが汚くなるのでこういうやり方
-    
+
 ```jsx:コンポーネント自体
 {/* SomeComponentそのもののスタイル */}
 const child = css`
@@ -281,7 +281,7 @@ const ChildComponent = props => (
 )
 ```
 
-`jsx:コンポーネントを呼び出す側
+```jsx:コンポーネントを呼び出す側
 {/* SomeComponentをレイアウトするためのスタイル */}
 const layout = css`
   margin-top: 20px;
@@ -292,7 +292,7 @@ render(
   {/* SomeComponentで指定しているcss={child}に加えてcss={layout}の内容も当たっている
       = margin-top:20pxが適用されている */}
 )
-`
+```
 
 ## まとめ
 
