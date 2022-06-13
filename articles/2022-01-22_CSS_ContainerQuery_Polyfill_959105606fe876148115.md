@@ -137,7 +137,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries
 <!-- 省略 -->
 ```
 
-`css:style.css
+```css:style.css
 .main {
   container-name: main;
   container-type: inline-size;
@@ -154,7 +154,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries
     gap: 8px;
   }
 }
-`
+```
 
 これをデベロッパーツール上で見ると……
 

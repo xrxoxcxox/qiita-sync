@@ -39,7 +39,7 @@ private: false
 <div id="div" class="button">ボタン風のdiv</div>
 ```
 
-`javascript:script.js
+```javascript:script.js
 const div = document.getElementById('div');
 
 const divClick = () => {
@@ -47,7 +47,7 @@ const divClick = () => {
 };
 
 div.addEventListener('click', divClick);
-`
+```
 
 | クリックだけならbuttonとdivの差は無く見える |
 | --- |
@@ -57,7 +57,7 @@ div.addEventListener('click', divClick);
 
 ```diff_html:index.html
 - <div id="div" class="button">ボタン風のdiv</div>
-+ <div id="div" class="button" tabindex="0">ボタン風のdiv</div> 
++ <div id="div" class="button" tabindex="0">ボタン風のdiv</div>
 ```
 
 `tabindex`をつけないと、そもそもタブキーでフォーカスを当てることができません。
@@ -96,8 +96,8 @@ div.addEventListener('click', divClick);
 ### `button`のroleを追加する
 
 ```diff_html:index.html
-- <div id="div" class="button" tabindex="0">ボタン風のdiv</div> 
-+ <div id="div" class="button" tabindex="0" role="button">ボタン風のdiv</div>  
+- <div id="div" class="button" tabindex="0">ボタン風のdiv</div>
++ <div id="div" class="button" tabindex="0" role="button">ボタン風のdiv</div>
 ```
 
 操作するタイミングでは問題がなくなりましたが、まだマークアップとしては`div`でしかないのでスクリーンリーダーが上手く認識してくれません。
