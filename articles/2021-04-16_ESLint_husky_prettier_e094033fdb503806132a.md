@@ -48,13 +48,13 @@ private: false
 npm install --save-dev eslint-config-prettier
 ```
 
-`diff_javascript:.eslintrc.js
+```diff_javascript:.eslintrc.js
   extends: [
     ...
 +   'prettier',
   ],
 // ※他の設定を上書きするために、最後の行に記載する必要がある
-
+```
 
 ```bash:コマンドを叩く
 npm run prettier --write . && npm run eslint --fix .
@@ -126,10 +126,10 @@ npx husky-init && npm install
 }
 ```
 
-`diff_shell:pre-commit
+```diff_shell:pre-commit
 - npm test
 + npm run lint-staged
-`
+```
 
 ### 既にインストールされていて、アップデートするなら
 
