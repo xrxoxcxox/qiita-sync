@@ -56,7 +56,8 @@ yarn init -y
 yarn add -D react @types/react react-dom @types/react-dom typescript
 ```
 
-`diff_json:package.json
+```
+diff_json:package.json
   {
     "name": "uxpin-with-typescript",
     "version": "1.0.0",
@@ -72,7 +73,7 @@ yarn add -D react @types/react react-dom @types/react-dom typescript
 +     "typescript": "^4.4.4"
 +   }
   }
-`
+```
 
 更にコマンドを叩きます。
 
