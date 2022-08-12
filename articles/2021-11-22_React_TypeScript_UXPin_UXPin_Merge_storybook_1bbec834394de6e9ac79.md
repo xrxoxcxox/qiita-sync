@@ -37,7 +37,8 @@ Emotionにはstyled-component記法でスタイルを書くための@emotion/sty
 yarn add -D @emotion/babel-preset-css-prop
 ```
 
-`diff_json:tsconfig.json
+```
+diff_json:tsconfig.json
   {
     "compilerOptions": {
       "target": "es5",
@@ -51,6 +52,7 @@ yarn add -D @emotion/babel-preset-css-prop
 +     "jsxImportSource": "@emotion/react"
     }
   }
+```
 
 
 ```diff_javascript:.storybook/main.js
