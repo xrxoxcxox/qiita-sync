@@ -13,6 +13,10 @@ https://twitter.com/googlefonts/status/1516934123700383744
 
 変更点について簡単にまとめてみました。
 
+追記：現実的な導入方法はこちらの記事でまとめています。
+
+https://qiita.com/xrxoxcxox/items/f80d6f8bbdf4cf785c5f
+
 ## Material SymbolsとMaterial Design Iconsの違い
 
 https://fonts.google.com/icons
