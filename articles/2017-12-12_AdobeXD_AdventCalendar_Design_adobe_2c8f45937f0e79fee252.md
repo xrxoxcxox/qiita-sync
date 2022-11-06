@@ -1,6 +1,6 @@
 <!--
 title:   Adobe XD「私は潤滑油のような存在です」　ぼく「採用！」
-tags:    AdobeXD,AdventCalendar,Design,adobe,デザイン
+tags:    AdobeXD,AdventCalendar,Design,Adobe,デザイン
 id:      2c8f45937f0e79fee252
 private: false
 -->
