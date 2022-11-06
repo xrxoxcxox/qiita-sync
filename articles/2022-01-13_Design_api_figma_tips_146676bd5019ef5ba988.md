@@ -86,8 +86,7 @@ https://www.figma.com/developers/api#get-files-endpoint
 
 ### [.name, .children[].name]
 
-最初の`.name`がPageの名前。
-`.children[].name`が全てのトップレベルの要素の名前です。
+最初の`.name`がPageの名前で、`.children[].name`が全てのトップレベルの要素の名前です。
 
 `.children[].name`だけだとどのPageのFrameだったかが分かりづらくなってしまうかなと思い、先頭にPage名を入れておきました。
 

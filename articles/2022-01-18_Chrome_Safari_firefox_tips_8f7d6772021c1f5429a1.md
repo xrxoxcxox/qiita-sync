@@ -29,11 +29,11 @@ private: false
 
 1. 目的のページを開く
 1. 開発者ツールを開く
-    - <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/55fd0b29-6754-8ad8-f88a-eaedb65f72a4.png" width="600" alt="">
+   - <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/55fd0b29-6754-8ad8-f88a-eaedb65f72a4.png" width="600" alt="">
 1. インスペクタなどから撮影したい要素をアクティブにする
-    - <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/b846dd2d-820f-88aa-d67b-04f73ad17ea3.png" width="600" alt="">
+   - <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/b846dd2d-820f-88aa-d67b-04f73ad17ea3.png" width="600" alt="">
 1. 右クリック > Capture node screenshot
-    - <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/3d8bb5df-c434-1186-b5bf-416e58f4493b.png" width="404" alt="">
+   - <img src="https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/3d8bb5df-c434-1186-b5bf-416e58f4493b.png" width="404" alt="">
 1. 保存するディレクトリを選んで完了
 
 コンテキストメニューに記されているラベルは以下のようになっています。
@@ -58,9 +58,7 @@ Safariだけはnodeのスクリーンショットであると明示されてい�
 | ブラウザ | 撮影したスクリーンショット |
 | --- | --- |
 | Google Chrome | ![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/1b4aeac2-d24a-de58-4bdb-ff99d3d155e5.png) |
-|  |  |
 | Firefox | ![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/37c4c0bd-6a48-2317-058b-974b57a0372a.png) |
-|  |  |
 | Safari | ![](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/214677/7eeb9565-6935-ce52-8f38-d58e384cb40d.png) |
 
 ## 余談
