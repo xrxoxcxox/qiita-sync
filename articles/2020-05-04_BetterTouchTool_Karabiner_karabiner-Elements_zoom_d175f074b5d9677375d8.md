@@ -1,6 +1,6 @@
 <!--
 title:   ZoomのTips: フットペダルで効率良く自分のミュートのオンオフを切り替える
-tags:    BetterTouchTool,Karabiner,karabiner-Elements,zoom
+tags:    BetterTouchTool,Karabiner,karabiner-Elements,Zoom
 id:      d175f074b5d9677375d8
 private: false
 -->

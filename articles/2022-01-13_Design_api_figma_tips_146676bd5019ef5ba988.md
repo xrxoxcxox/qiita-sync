@@ -1,6 +1,6 @@
 <!--
 title:   Figma APIで特定File内のFrame名を全てcsvに出力する
-tags:    Design,api,figma,tips,デザイン
+tags:    Design,API,figma,tips,デザイン
 id:      146676bd5019ef5ba988
 private: false
 -->

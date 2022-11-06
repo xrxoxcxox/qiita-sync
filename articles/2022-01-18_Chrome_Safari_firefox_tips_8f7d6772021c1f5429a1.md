@@ -1,6 +1,6 @@
 <!--
 title:   特定の要素だけのスクリーンショットが欲しいとき
-tags:    Chrome,Safari,firefox,tips,スクリーンショット
+tags:    Chrome,Safari,Firefox,tips,スクリーンショット
 id:      8f7d6772021c1f5429a1
 private: false
 -->

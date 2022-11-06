@@ -1,6 +1,6 @@
 <!--
 title:   QiitaのMarkdownパーサー変更にともなう、補足説明の書き方と注意点
-tags:    Markdown,Qiita,githubflavoredmarkdown
+tags:    Markdown,Qiita,GitHubFlavoredMarkdown
 id:      0c91e5319c32434f2c6a
 private: false
 -->
