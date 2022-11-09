@@ -85,19 +85,23 @@ faux ESMがデフォルト、しかしCommonJSでの対応も必要だから`nod
 
 ### Ant Design
 
+記事執筆時のバージョンは`4.24.1`です。
+
 ```shell:ディレクトリ概観
 antd
 ├── es
 │   ├── _util
-│   └── affix
-│   └── alert
-│   └── index.d.ts
+│   ├── affix
+│   ├── alert
+│   …
+│   ├── index.d.ts
 │   └── index.js
 ├── lib
 │   ├── _util
-│   └── affix
-│   └── alert
-│   └── index.d.ts
+│   ├── affix
+│   ├── alert
+│   …
+│   ├── index.d.ts
 │   └── index.js
 …
 └── package.json
@@ -116,6 +120,8 @@ CommonJSとfaux ESMを並列に扱っている感じがします。
 悪い影響が出るようなものではなさそうですが、ちょっとしっくりきません（個人的に、です）。
 
 ### Chakra UI
+
+記事執筆時のバージョンは`2.3.7`です。
 
 ```shell:ディレクトリ概観
 @chakra-ui
@@ -175,20 +181,25 @@ Ant Designは並列に扱いつつも`main`と`typings`が`lib`で`module`が`es
 
 ### Mantine
 
+記事執筆時のバージョンは`5.7.1`です。
+
 ```shell:ディレクトリ概観
 @maitine/core
 ├── cjs
 │   ├── Accordion
 │   ├── ActionIcon
-│   └── Affix
+│   ├── Affix
+│   …
 ├── esm
 │   ├── Accordion
 │   ├── ActionIcon
-│   └── Affix
+│   ├── Affix
+│   …
 ├── lib
 │   ├── Accordion
 │   ├── ActionIcon
-│   └── Affix
+│   ├── Affix
+│   …
 └── package.json
 ```
 
