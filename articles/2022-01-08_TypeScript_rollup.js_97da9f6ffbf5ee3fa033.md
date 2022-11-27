@@ -25,7 +25,7 @@ Storybookを導入しているのですが`*.stories.tsx`の型定義はビル�
 }
 ```
 
-`javascript:rollup.config.js（抜粋）
+```javascript:rollup.config.js（抜粋）
 export default {
   input: "src/index.ts",
   output: {
@@ -36,7 +36,7 @@ export default {
     typescript({ exclude: ["src/**/*.stories.tsx"] })
   ]
 }
-`
+```
 
 ### 8.2.5での挙動
 
